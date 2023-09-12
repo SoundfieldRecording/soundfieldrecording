@@ -8,13 +8,11 @@ const Layout = () => {
   window.addEventListener('scroll', () => {
     const position = window.pageYOffset
 
-    if (position > 130) {
+    if (position > 150) {
       document.querySelector('.header').classList.add('pinned')
-    } else if (position === 0) {
+    } else if (position <= 100) {
       document.querySelector('.header').classList.remove('pinned')
     }
-
-    console.log("WHEEEE - ", position)
   })
 
   return (

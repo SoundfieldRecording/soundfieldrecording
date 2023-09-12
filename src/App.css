@@ -87,10 +87,6 @@ html, body {
   right: 0;
 }
 
-.header.pinned .big-logo img {
-  height: 0px;
-}
-
 .header.pinned .my-nav .nav-logo {
   opacity: 1;
 }
