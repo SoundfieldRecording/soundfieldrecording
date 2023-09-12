@@ -232,7 +232,7 @@ export default function ClientsModal() {
 
                       <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
                         <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-white">
-                          List of Clients
+                          Partial List of Clients
                         </Dialog.Title>
                         <div className="mt-2">
                           {callouts.map((callout) => (
