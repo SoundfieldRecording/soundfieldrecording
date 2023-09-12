@@ -22,8 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "rsync -avz --delete -e \"ssh -i ~/.ssh/id_rsa.pub\" ./build/ kuzco@thingerly.com:projects/soundfieldrecording.com/"
   },
   "eslintConfig": {
     "extends": [
